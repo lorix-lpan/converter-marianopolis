@@ -4,12 +4,30 @@ Convert Marianopolis Course Offering document from PDF to JSON
 
 ### Usage
 
-**$ node convert.js path/to/your/file**
+* $ git clone https://github.com/lorix-lpan/converter-marianopolis
+* $ cd converter-marianopolis
+* $ npm install
+* $ node convert.js path/to/your/file
 
-Ex. 
-* make sure convert.js is in your current directory
-* convert.js is in directory app => app/convert.js
-* A pdf file named test.pdf is in directory app/test => app/test/test.pdf
-
-Then the command will be:
-* **$ node convert.js test/test.pdf**
+### Example Data Format
+```javascript
+[
+  {
+    "section": "00001",
+    "meeting": [
+      {
+        "day": "M",
+        "time": "14:15-16:15",
+        "room": "G-202"
+      },
+      {
+        "day": "TH",
+        "time": "14:15-15:45",
+        "room": "A-315"
+      }
+    ],
+    "name": "GENERAL BIOLOGY II",
+    "teacher": "Di Flumeri, Celestino",
+    "code": "101-LCU-05"
+  }
+]
