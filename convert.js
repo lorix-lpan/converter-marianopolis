@@ -1,22 +1,25 @@
-var fs = require('fs');
-var _ = require('underscore');
-var PDFParser = require('../node_modules/pdf2json/pdfparser');
+import fs from 'fs';
+import path from 'path';
+import _ from 'underscore';
+import PDFParser from './node_modules/pdf2json/pdfparser';
 
-var pdfParser = new PDFParser();
-var pdfData = [];
+const pdfParser = new PDFParser();
+let pdfData = [];
 
-var _onPFBinDataReady = function (evtData) {
-  var data = [];
-  var chomp = function (raw_text) {
+function _onPFBinDataReady (evtData) {
+
+  function chomp (raw_text) {
     return raw_text.replace(/(\n|\u0000)+$/, '');
   };
-  var regexes = [
+
+  let data = [];
+  const regexes = [
     /^SECTION/,
     /^COURSE/,
     /^DAY/,
     /^ROOM/,
     /^SCHEDULE/,
-    /^MARIANOPOLIS/i,
+    /^MARIANOPOLIS%20COLLEGE/i,
     /^[0-9]{1,2}$/,
     /^Complementary/,
     /^Physical/,
@@ -26,27 +29,31 @@ var _onPFBinDataReady = function (evtData) {
     /[A-Z]{3}\s-\s/, // matching liberal arts and alc shit
     /^[0-9]+\./ // match program name
   ];
-  var count = -1; // for the foreach loop
-  var course = -1;
-  var track = []; // to prevent duplication using page numbers
-  evtData.data.Pages.forEach(function (page, i) {
-    var sorted = page.Texts.sort(function (a, b) {
+
+  let count = -1; // for the foreach loop
+  let course = -1;
+  let overflow = false;
+  let track = []; // to prevent duplication using page numbers
+
+  evtData.data.Pages.forEach( (page, i) => {
+
+    let sorted = page.Texts.sort( (a, b) => {
       if (a.y === b.y) {
         return a.x - b.x;
       } else {
         return a.y - b.y;
       }
     });
-    var pageNum = sorted[sorted.length-1].R[0].T;
-    for (var j = 0; j < track.length; j ++) {
+    let pageNum = sorted[sorted.length-1].R[0].T;
+    for (let j = 0; j < track.length; j ++) {
       if (pageNum == track[j])
         return;
     }
     track.push(pageNum);
     sorted.
-      // Find items with certain expression and replace them with 
-      // blank space. 
-      map(function (file) {
+      // Find items with certain expression and replace them with
+      // blank space
+      map( (file) => {
         var isValid = true;
         regexes.forEach(function (regex) {
           if (file.R[0].T.match(regex) !== null)
@@ -57,11 +64,11 @@ var _onPFBinDataReady = function (evtData) {
         }
       }).
       // Delete blank space by the previous map function
-      filter(function (item) {
+      filter( (item) => {
         return item !== undefined && item !== '';
       }).
       // Convert array to a list of js objects
-      forEach(function (file) {
+      forEach( (file) => {
         if (file.match(/^[0-9]{5}$/) !== null) {
           count ++;
           course = -1;
@@ -77,7 +84,7 @@ var _onPFBinDataReady = function (evtData) {
             data.push({});
             data[count].section = file.match(/[0-9]{5}/)[0];
             data[count].code = file.match(/^.{3}-.{3}/)[0];
-            data[count].meeting = []; 
+            data[count].meeting = [];
             data[count].name = '';
             data[count].teacher = '';
           } else {
@@ -91,19 +98,32 @@ var _onPFBinDataReady = function (evtData) {
           data[count].meeting[course].time = file;
         } else if (file.match(/^([A-Z]-\d{3}|\d{3}|AUD|GYM)$/) !== null) {
           data[count].meeting[course].room = file;
-        } else if (file.match(/^((?![a-z]).)*$/) !== null) {
-          data[count].name += file;
+        // } else if (file.match(/^((?![a-z]).)*$/) !== null) {
+        } else if (file.match(/^[^,;]+,\ [^,;]+/) || overflow) {
+          if (file.match(/;/)) {
+            data[count].teacher += file.toString();
+            if (file.toString()[file.toString().length-1] === ' ') {
+              overflow = true;
+            }
+          } else if (file.match(/TRUTH/)) {
+            data[count].name += file;
+          } else {
+            if (overflow) {
+              overflow = false;
+            }
+            data[count].teacher += file.toString();
+          }
         } else {
-          data[count].teacher += file.toString();
+          data[count].name += file;
         }
       });
   });
+
   pdfData = data;
-  console.log(pdfData);
   fs.writeFile(jsonName, JSON.stringify(pdfData, null, 2), 'utf8');
 };
 
-var _onPFBinDataError = function (evtError) {
+function _onPFBinDataError (evtError) {
   console.log('error');
 };
 
@@ -111,11 +131,12 @@ pdfParser.on('pdfParser_dataReady', _.bind(_onPFBinDataReady, this));
 
 pdfParser.on('pdfParser_dataError', _.bind(_onPFBinDataError, this));
 
+// Start of the program
 // input filename as a commandline argument
-var pdfFilePath = process.argv[2];
-var fileName = pdfFilePath.match(/[a-zA-Z\-\_]+\.(pdf|PDF)/)[0];
+const pdfFilePath = process.argv[2];
+const fileName = pdfFilePath.match(/[a-zA-Z\-\_]+\.(pdf|PDF)/)[0];
 
-var jsonName = fileName.match(/^[a-zA-Z\_]+/)[0] + '.json';
+const jsonName = path.join(__dirname, 'data', fileName.match(/^[a-zA-Z\_]+/)[0] + '.json');
 
 pdfParser.loadPDF(pdfFilePath);
 

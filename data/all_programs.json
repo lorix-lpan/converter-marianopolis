@@ -1933,8 +1933,8 @@
         "room": "D-307"
       }
     ],
-    "name": "WAVES, LIGHT & MODERN PHYSICS",
-    "teacher": "Perreault, Jean",
+    "name": "PHYSICS",
+    "teacher": "WAVES, LIGHT & MODERN Perreault, Jean",
     "code": "203-NYC-05"
   },
   {
@@ -2162,8 +2162,8 @@
         "room": "900"
       }
     ],
-    "name": "(CHOIR LAB)",
-    "teacher": "LARGE ENS. & VOICE CL. ll McGill, TBA; Strauss, Anja",
+    "name": "LARGE ENS. & VOICE CL. ll (CHOIR LAB)",
+    "teacher": "McGill, TBA; Strauss, Anja",
     "code": "551-244-MS"
   },
   {
@@ -2180,8 +2180,8 @@
         "room": "900"
       }
     ],
-    "name": "(CHOIR LAB)",
-    "teacher": "LARGE ENS. & PIANO CL. ll McGill, TBA",
+    "name": "LARGE ENS. & PIANO CL. ll (CHOIR LAB)",
+    "teacher": "McGill, TBA",
     "code": "551-244-MS"
   },
   {
@@ -2198,8 +2198,8 @@
         "room": "900"
       }
     ],
-    "name": "(ORCH. LAB)",
-    "teacher": "LARGE ENS. & PIANO CL. ll McGill, TBA",
+    "name": "LARGE ENS. & PIANO CL. ll (ORCH. LAB)",
+    "teacher": "McGill, TBA",
     "code": "551-244-MS"
   },
   {
@@ -2216,8 +2216,8 @@
         "room": "900"
       }
     ],
-    "name": "SYMPH. LAB)",
-    "teacher": "LARGE ENS. & PIANO CL. ll (WIND McGill, TBA",
+    "name": "LARGE ENS. & PIANO CL. ll (WIND SYMPH. LAB)",
+    "teacher": "McGill, TBA",
     "code": "551-244-MS"
   },
   {
@@ -2229,8 +2229,8 @@
         "room": "900"
       }
     ],
-    "name": "(CONTEMPORARY)",
-    "teacher": "LARGE ENS. & PIANO CL. ll McGill, TBA",
+    "name": "LARGE ENS. & PIANO CL. ll (CONTEMPORARY)",
+    "teacher": "McGill, TBA",
     "code": "551-244-MS"
   },
   {
@@ -2555,7 +2555,7 @@
       }
     ],
     "name": "PIANO CL. III + SMALL ENS. (VOICE TRIO)",
-    "teacher": "McGill, TBA; TBAMPR1, ",
+    "teacher": "McGill, TBA; TBAMPR1, Marianopolis",
     "code": "551-443-MS"
   },
   {
@@ -2604,7 +2604,7 @@
       }
     ],
     "name": "PIANO CL. III + SMALL ENS. (VOICE TRIO II)",
-    "teacher": "McGill, TBA; TBAMPR1, ",
+    "teacher": "McGill, TBA; TBAMPR1, Marianopolis",
     "code": "551-443-MS"
   },
   {
@@ -2622,7 +2622,7 @@
       }
     ],
     "name": "VOICE III + SMALL ENS. (VOICE TRIO II)",
-    "teacher": "Strauss, Anja; TBAMPR1, ",
+    "teacher": "Strauss, Anja; TBAMPR1, Marianopolis",
     "code": "551-443-MS"
   },
   {
@@ -4657,8 +4657,8 @@
         "room": "D-307"
       }
     ],
-    "name": "WAVES, LIGHT & MODERN PHYSICS",
-    "teacher": "Perreault, Jean",
+    "name": "PHYSICS",
+    "teacher": "WAVES, LIGHT & MODERN Perreault, Jean",
     "code": "203-NYC-05"
   },
   {
@@ -5192,8 +5192,8 @@
         "room": "D-220"
       }
     ],
-    "name": "",
-    "teacher": "The Great War & Shaping the Modern World 20th C HistoryO'Keefe, David",
+    "name": "The Great War & Shaping the Modern World 20th C History",
+    "teacher": "O'Keefe, David",
     "code": "330-972-MS"
   },
   {
@@ -5205,8 +5205,8 @@
         "room": "D-407"
       }
     ],
-    "name": "",
-    "teacher": "The Great War & Shaping the Modern World 20th C HistoryO'Keefe, David",
+    "name": "The Great War & Shaping the Modern World 20th C History",
+    "teacher": "O'Keefe, David",
     "code": "330-972-MS"
   },
   {
@@ -5381,8 +5381,8 @@
         "room": "D-407"
       }
     ],
-    "name": "",
-    "teacher": "FORENSIC PSYCHOLOGY - Topics in Psychology IIBurton, Kimberly",
+    "name": "FORENSIC PSYCHOLOGY - Topics in Psychology II",
+    "teacher": "Burton, Kimberly",
     "code": "350-929-MS"
   },
   {
@@ -5508,8 +5508,8 @@
         "room": "A-311"
       }
     ],
-    "name": "FUNDAMENTALS OF LAW - ",
-    "teacher": "Selected Topics in the Social SciencesKruger, Stuart",
+    "name": "FUNDAMENTALS OF LAW - Selected Topics in the Social Sciences",
+    "teacher": "Kruger, Stuart",
     "code": "360-929-MS"
   },
   {
@@ -6185,8 +6185,8 @@
         "room": "900"
       }
     ],
-    "name": "(CHOIR LAB)",
-    "teacher": "LARGE ENS. & VOICE CL. ll McGill, TBA; Strauss, Anja",
+    "name": "LARGE ENS. & VOICE CL. ll (CHOIR LAB)",
+    "teacher": "McGill, TBA; Strauss, Anja",
     "code": "551-244-MS"
   },
   {
@@ -6203,8 +6203,8 @@
         "room": "900"
       }
     ],
-    "name": "(CHOIR LAB)",
-    "teacher": "LARGE ENS. & PIANO CL. ll McGill, TBA",
+    "name": "LARGE ENS. & PIANO CL. ll (CHOIR LAB)",
+    "teacher": "McGill, TBA",
     "code": "551-244-MS"
   },
   {
@@ -6221,8 +6221,8 @@
         "room": "900"
       }
     ],
-    "name": "(ORCH. LAB)",
-    "teacher": "LARGE ENS. & PIANO CL. ll McGill, TBA",
+    "name": "LARGE ENS. & PIANO CL. ll (ORCH. LAB)",
+    "teacher": "McGill, TBA",
     "code": "551-244-MS"
   },
   {
@@ -6239,8 +6239,8 @@
         "room": "900"
       }
     ],
-    "name": "SYMPH. LAB)",
-    "teacher": "LARGE ENS. & PIANO CL. ll (WIND McGill, TBA",
+    "name": "LARGE ENS. & PIANO CL. ll (WIND SYMPH. LAB)",
+    "teacher": "McGill, TBA",
     "code": "551-244-MS"
   },
   {
@@ -6252,8 +6252,8 @@
         "room": "900"
       }
     ],
-    "name": "(CONTEMPORARY)",
-    "teacher": "LARGE ENS. & PIANO CL. ll McGill, TBA",
+    "name": "LARGE ENS. & PIANO CL. ll (CONTEMPORARY)",
+    "teacher": "McGill, TBA",
     "code": "551-244-MS"
   },
   {
@@ -6578,7 +6578,7 @@
       }
     ],
     "name": "PIANO CL. III + SMALL ENS. (VOICE TRIO)",
-    "teacher": "McGill, TBA; TBAMPR1, ",
+    "teacher": "McGill, TBA; TBAMPR1, Marianopolis",
     "code": "551-443-MS"
   },
   {
@@ -6627,7 +6627,7 @@
       }
     ],
     "name": "PIANO CL. III + SMALL ENS. (VOICE TRIO II)",
-    "teacher": "McGill, TBA; TBAMPR1, ",
+    "teacher": "McGill, TBA; TBAMPR1, Marianopolis",
     "code": "551-443-MS"
   },
   {
@@ -6645,7 +6645,7 @@
       }
     ],
     "name": "VOICE III + SMALL ENS. (VOICE TRIO II)",
-    "teacher": "Strauss, Anja; TBAMPR1, ",
+    "teacher": "Strauss, Anja; TBAMPR1, Marianopolis",
     "code": "551-443-MS"
   },
   {
@@ -7848,8 +7848,8 @@
         "room": "D-220"
       }
     ],
-    "name": "",
-    "teacher": "The Great War & Shaping the Modern World 20th C HistoryO'Keefe, David",
+    "name": "The Great War & Shaping the Modern World 20th C History",
+    "teacher": "O'Keefe, David",
     "code": "330-972-MS"
   },
   {
@@ -7861,8 +7861,8 @@
         "room": "D-407"
       }
     ],
-    "name": "",
-    "teacher": "The Great War & Shaping the Modern World 20th C HistoryO'Keefe, David",
+    "name": "The Great War & Shaping the Modern World 20th C History",
+    "teacher": "O'Keefe, David",
     "code": "330-972-MS"
   },
   {
@@ -8037,8 +8037,8 @@
         "room": "D-407"
       }
     ],
-    "name": "",
-    "teacher": "FORENSIC PSYCHOLOGY - Topics in Psychology IIBurton, Kimberly",
+    "name": "FORENSIC PSYCHOLOGY - Topics in Psychology II",
+    "teacher": "Burton, Kimberly",
     "code": "350-929-MS"
   },
   {
@@ -8164,8 +8164,8 @@
         "room": "A-311"
       }
     ],
-    "name": "FUNDAMENTALS OF LAW - ",
-    "teacher": "Selected Topics in the Social SciencesKruger, Stuart",
+    "name": "FUNDAMENTALS OF LAW - Selected Topics in the Social Sciences",
+    "teacher": "Kruger, Stuart",
     "code": "360-929-MS"
   },
   {
@@ -8872,8 +8872,8 @@
         "room": "900"
       }
     ],
-    "name": "(CHOIR LAB)",
-    "teacher": "LARGE ENS. & VOICE CL. ll McGill, TBA; Strauss, Anja",
+    "name": "LARGE ENS. & VOICE CL. ll (CHOIR LAB)",
+    "teacher": "McGill, TBA; Strauss, Anja",
     "code": "551-244-MS"
   },
   {
@@ -8890,8 +8890,8 @@
         "room": "900"
       }
     ],
-    "name": "(CHOIR LAB)",
-    "teacher": "LARGE ENS. & PIANO CL. ll McGill, TBA",
+    "name": "LARGE ENS. & PIANO CL. ll (CHOIR LAB)",
+    "teacher": "McGill, TBA",
     "code": "551-244-MS"
   },
   {
@@ -8908,8 +8908,8 @@
         "room": "900"
       }
     ],
-    "name": "(ORCH. LAB)",
-    "teacher": "LARGE ENS. & PIANO CL. ll McGill, TBA",
+    "name": "LARGE ENS. & PIANO CL. ll (ORCH. LAB)",
+    "teacher": "McGill, TBA",
     "code": "551-244-MS"
   },
   {
@@ -8926,8 +8926,8 @@
         "room": "900"
       }
     ],
-    "name": "SYMPH. LAB)",
-    "teacher": "LARGE ENS. & PIANO CL. ll (WIND McGill, TBA",
+    "name": "LARGE ENS. & PIANO CL. ll (WIND SYMPH. LAB)",
+    "teacher": "McGill, TBA",
     "code": "551-244-MS"
   },
   {
@@ -8939,8 +8939,8 @@
         "room": "900"
       }
     ],
-    "name": "(CONTEMPORARY)",
-    "teacher": "LARGE ENS. & PIANO CL. ll McGill, TBA",
+    "name": "LARGE ENS. & PIANO CL. ll (CONTEMPORARY)",
+    "teacher": "McGill, TBA",
     "code": "551-244-MS"
   },
   {
@@ -9265,7 +9265,7 @@
       }
     ],
     "name": "PIANO CL. III + SMALL ENS. (VOICE TRIO)",
-    "teacher": "McGill, TBA; TBAMPR1, ",
+    "teacher": "McGill, TBA; TBAMPR1, Marianopolis",
     "code": "551-443-MS"
   },
   {
@@ -9314,7 +9314,7 @@
       }
     ],
     "name": "PIANO CL. III + SMALL ENS. (VOICE TRIO II)",
-    "teacher": "McGill, TBA; TBAMPR1, ",
+    "teacher": "McGill, TBA; TBAMPR1, Marianopolis",
     "code": "551-443-MS"
   },
   {
@@ -9332,7 +9332,7 @@
       }
     ],
     "name": "VOICE III + SMALL ENS. (VOICE TRIO II)",
-    "teacher": "Strauss, Anja; TBAMPR1, ",
+    "teacher": "Strauss, Anja; TBAMPR1, Marianopolis",
     "code": "551-443-MS"
   },
   {
@@ -10220,8 +10220,8 @@
         "room": "900"
       }
     ],
-    "name": "(CHOIR LAB)",
-    "teacher": "LARGE ENS. & VOICE CL. ll McGill, TBA; Strauss, Anja",
+    "name": "LARGE ENS. & VOICE CL. ll (CHOIR LAB)",
+    "teacher": "McGill, TBA; Strauss, Anja",
     "code": "551-244-MS"
   },
   {
@@ -10238,8 +10238,8 @@
         "room": "900"
       }
     ],
-    "name": "(CHOIR LAB)",
-    "teacher": "LARGE ENS. & PIANO CL. ll McGill, TBA",
+    "name": "LARGE ENS. & PIANO CL. ll (CHOIR LAB)",
+    "teacher": "McGill, TBA",
     "code": "551-244-MS"
   },
   {
@@ -10256,8 +10256,8 @@
         "room": "900"
       }
     ],
-    "name": "(ORCH. LAB)",
-    "teacher": "LARGE ENS. & PIANO CL. ll McGill, TBA",
+    "name": "LARGE ENS. & PIANO CL. ll (ORCH. LAB)",
+    "teacher": "McGill, TBA",
     "code": "551-244-MS"
   },
   {
@@ -10274,8 +10274,8 @@
         "room": "900"
       }
     ],
-    "name": "SYMPH. LAB)",
-    "teacher": "LARGE ENS. & PIANO CL. ll (WIND McGill, TBA",
+    "name": "LARGE ENS. & PIANO CL. ll (WIND SYMPH. LAB)",
+    "teacher": "McGill, TBA",
     "code": "551-244-MS"
   },
   {
@@ -10287,8 +10287,8 @@
         "room": "900"
       }
     ],
-    "name": "(CONTEMPORARY)",
-    "teacher": "LARGE ENS. & PIANO CL. ll McGill, TBA",
+    "name": "LARGE ENS. & PIANO CL. ll (CONTEMPORARY)",
+    "teacher": "McGill, TBA",
     "code": "551-244-MS"
   },
   {
@@ -10613,7 +10613,7 @@
       }
     ],
     "name": "PIANO CL. III + SMALL ENS. (VOICE TRIO)",
-    "teacher": "McGill, TBA; TBAMPR1, ",
+    "teacher": "McGill, TBA; TBAMPR1, Marianopolis",
     "code": "551-443-MS"
   },
   {
@@ -10662,7 +10662,7 @@
       }
     ],
     "name": "PIANO CL. III + SMALL ENS. (VOICE TRIO II)",
-    "teacher": "McGill, TBA; TBAMPR1, ",
+    "teacher": "McGill, TBA; TBAMPR1, Marianopolis",
     "code": "551-443-MS"
   },
   {
@@ -10680,7 +10680,7 @@
       }
     ],
     "name": "VOICE III + SMALL ENS. (VOICE TRIO II)",
-    "teacher": "Strauss, Anja; TBAMPR1, ",
+    "teacher": "Strauss, Anja; TBAMPR1, Marianopolis",
     "code": "551-443-MS"
   },
   {
@@ -13542,8 +13542,8 @@
         "room": "900"
       }
     ],
-    "name": "(CHOIR LAB)",
-    "teacher": "LARGE ENS. & VOICE CL. ll McGill, TBA; Strauss, Anja",
+    "name": "LARGE ENS. & VOICE CL. ll (CHOIR LAB)",
+    "teacher": "McGill, TBA; Strauss, Anja",
     "code": "551-244-MS"
   },
   {
@@ -13560,8 +13560,8 @@
         "room": "900"
       }
     ],
-    "name": "(CHOIR LAB)",
-    "teacher": "LARGE ENS. & PIANO CL. ll McGill, TBA",
+    "name": "LARGE ENS. & PIANO CL. ll (CHOIR LAB)",
+    "teacher": "McGill, TBA",
     "code": "551-244-MS"
   },
   {
@@ -13578,8 +13578,8 @@
         "room": "900"
       }
     ],
-    "name": "(ORCH. LAB)",
-    "teacher": "LARGE ENS. & PIANO CL. ll McGill, TBA",
+    "name": "LARGE ENS. & PIANO CL. ll (ORCH. LAB)",
+    "teacher": "McGill, TBA",
     "code": "551-244-MS"
   },
   {
@@ -13596,8 +13596,8 @@
         "room": "900"
       }
     ],
-    "name": "SYMPH. LAB)",
-    "teacher": "LARGE ENS. & PIANO CL. ll (WIND McGill, TBA",
+    "name": "LARGE ENS. & PIANO CL. ll (WIND SYMPH. LAB)",
+    "teacher": "McGill, TBA",
     "code": "551-244-MS"
   },
   {
@@ -13609,8 +13609,8 @@
         "room": "900"
       }
     ],
-    "name": "(CONTEMPORARY)",
-    "teacher": "LARGE ENS. & PIANO CL. ll McGill, TBA",
+    "name": "LARGE ENS. & PIANO CL. ll (CONTEMPORARY)",
+    "teacher": "McGill, TBA",
     "code": "551-244-MS"
   },
   {
@@ -13935,7 +13935,7 @@
       }
     ],
     "name": "PIANO CL. III + SMALL ENS. (VOICE TRIO)",
-    "teacher": "McGill, TBA; TBAMPR1, ",
+    "teacher": "McGill, TBA; TBAMPR1, Marianopolis",
     "code": "551-443-MS"
   },
   {
@@ -13984,7 +13984,7 @@
       }
     ],
     "name": "PIANO CL. III + SMALL ENS. (VOICE TRIO II)",
-    "teacher": "McGill, TBA; TBAMPR1, ",
+    "teacher": "McGill, TBA; TBAMPR1, Marianopolis",
     "code": "551-443-MS"
   },
   {
@@ -14002,7 +14002,7 @@
       }
     ],
     "name": "VOICE III + SMALL ENS. (VOICE TRIO II)",
-    "teacher": "Strauss, Anja; TBAMPR1, ",
+    "teacher": "Strauss, Anja; TBAMPR1, Marianopolis",
     "code": "551-443-MS"
   },
   {
@@ -14269,8 +14269,8 @@
         "room": "D-307"
       }
     ],
-    "name": "WAVES, LIGHT & MODERN PHYSICS",
-    "teacher": "Perreault, Jean",
+    "name": "PHYSICS",
+    "teacher": "WAVES, LIGHT & MODERN Perreault, Jean",
     "code": "203-702-MS"
   },
   {
@@ -14461,8 +14461,8 @@
         "room": "D-407"
       }
     ],
-    "name": "",
-    "teacher": "FORENSIC PSYCHOLOGY - Topics in Psychology IIBurton, Kimberly",
+    "name": "FORENSIC PSYCHOLOGY - Topics in Psychology II",
+    "teacher": "Burton, Kimberly",
     "code": "360-702-MS"
   },
   {
@@ -14474,8 +14474,8 @@
         "room": "A-311"
       }
     ],
-    "name": "FUNDAMENTALS OF LAW - ",
-    "teacher": "Selected Topics in the Social SciencesKruger, Stuart",
+    "name": "FUNDAMENTALS OF LAW - Selected Topics in the Social Sciences",
+    "teacher": "Kruger, Stuart",
     "code": "360-702-MS"
   },
   {
@@ -14531,8 +14531,8 @@
         "room": "D-220"
       }
     ],
-    "name": "",
-    "teacher": "The Great War & Shaping the Modern World 20th C HISTORYO'Keefe, David",
+    "name": "The Great War & Shaping the Modern World 20th C HISTORY",
+    "teacher": "O'Keefe, David",
     "code": "360-702-MS"
   },
   {
@@ -14544,8 +14544,8 @@
         "room": "D-407"
       }
     ],
-    "name": "",
-    "teacher": "The Great War & Shaping the Modern World 20th C HISTORYO'Keefe, David",
+    "name": "The Great War & Shaping the Modern World 20th C HISTORY",
+    "teacher": "O'Keefe, David",
     "code": "360-702-MS"
   },
   {
@@ -16519,8 +16519,8 @@
         "room": "D-407"
       }
     ],
-    "name": "",
-    "teacher": "FORENSIC PSYCHOLOGY - Topics in Psychology IIBurton, Kimberly",
+    "name": "FORENSIC PSYCHOLOGY - Topics in Psychology II",
+    "teacher": "Burton, Kimberly",
     "code": "350-929-MS"
   },
   {
@@ -16864,8 +16864,8 @@
         "room": "D-220"
       }
     ],
-    "name": "",
-    "teacher": "The Great War & Shaping the Modern World 20th C HistoryO'Keefe, David",
+    "name": "The Great War & Shaping the Modern World 20th C History",
+    "teacher": "O'Keefe, David",
     "code": "330-972-MS"
   },
   {
@@ -16877,8 +16877,8 @@
         "room": "D-407"
       }
     ],
-    "name": "",
-    "teacher": "The Great War & Shaping the Modern World 20th C HistoryO'Keefe, David",
+    "name": "The Great War & Shaping the Modern World 20th C History",
+    "teacher": "O'Keefe, David",
     "code": "330-972-MS"
   },
   {
@@ -16916,8 +16916,8 @@
         "room": "A-311"
       }
     ],
-    "name": "FUNDAMENTALS OF LAW - ",
-    "teacher": "Selected Topics in the Social SciencesKruger, Stuart",
+    "name": "FUNDAMENTALS OF LAW - Selected Topics in the Social Sciences",
+    "teacher": "Kruger, Stuart",
     "code": "360-929-MS"
   },
   {
@@ -18077,8 +18077,8 @@
         "room": "D-205"
       }
     ],
-    "name": "",
-    "teacher": "The Penny DreadfulFrauley, Mary",
+    "name": "The Penny Dreadful",
+    "teacher": "Frauley, Mary",
     "code": "603-102-MQ"
   },
   {
@@ -18090,8 +18090,8 @@
         "room": "D-207"
       }
     ],
-    "name": "",
-    "teacher": "The Penny DreadfulFrauley, Mary",
+    "name": "The Penny Dreadful",
+    "teacher": "Frauley, Mary",
     "code": "603-102-MQ"
   },
   {
@@ -18233,8 +18233,8 @@
         "room": "D-205"
       }
     ],
-    "name": "",
-    "teacher": "ENGLISH LIT TO 1800 (A & S and Liberal Arts)Sheckler, Catherine",
+    "name": "ENGLISH LIT TO 1800 (A & S and Liberal Arts)",
+    "teacher": "Sheckler, Catherine",
     "code": "603-102-MQ"
   },
   {
@@ -18246,8 +18246,8 @@
         "room": "A-107"
       }
     ],
-    "name": "",
-    "teacher": "ENGLISH LIT TO 1800 (A & S and Liberal Arts)Fitz-James, Megan",
+    "name": "ENGLISH LIT TO 1800 (A & S and Liberal Arts)",
+    "teacher": "Fitz-James, Megan",
     "code": "603-102-MQ"
   },
   {
@@ -19266,8 +19266,8 @@
         "room": "A-319"
       }
     ],
-    "name": "",
-    "teacher": "MEDIEVAL KNOWLEDGE (Liberal Arts Only)Lamont, Larry",
+    "name": "MEDIEVAL KNOWLEDGE (Liberal Arts Only)",
+    "teacher": "Lamont, Larry",
     "code": "345-101-MQ"
   },
   {
@@ -19437,8 +19437,8 @@
         "room": "I-218"
       }
     ],
-    "name": "TATTOOS, TROPHIES, AND T-CELLS",
-    "teacher": "Richardson, Wendy",
+    "name": "CELLS",
+    "teacher": "TATTOOS, TROPHIES, AND T-Richardson, Wendy",
     "code": "345-102-MQ"
   },
   {
@@ -19629,8 +19629,8 @@
         "room": "A-310"
       }
     ],
-    "name": "",
-    "teacher": "JUST AND UNJUST WARS (Liberal Arts Only)Dufour, Maurice",
+    "name": "JUST AND UNJUST WARS (Liberal Arts Only)",
+    "teacher": "Dufour, Maurice",
     "code": "345-LPH-MS"
   },
   {
@@ -19794,8 +19794,8 @@
         "room": "F-204"
       }
     ],
-    "name": "",
-    "teacher": "Fitness/YogaScrase, Julia",
+    "name": "Fitness/Yoga",
+    "teacher": "Scrase, Julia",
     "code": "109-101-MQ"
   },
   {
@@ -19807,8 +19807,8 @@
         "room": "F-204"
       }
     ],
-    "name": "",
-    "teacher": "Fitness/YogaTBAPHE3, Marianopolis",
+    "name": "Fitness/Yoga",
+    "teacher": "TBAPHE3, Marianopolis",
     "code": "109-101-MQ"
   },
   {
@@ -19820,8 +19820,8 @@
         "room": "F-204"
       }
     ],
-    "name": "",
-    "teacher": "Fitness/AerobicsMcDonald, Shelly",
+    "name": "Fitness/Aerobics",
+    "teacher": "McDonald, Shelly",
     "code": "109-101-MQ"
   },
   {
@@ -19833,8 +19833,8 @@
         "room": "F-204"
       }
     ],
-    "name": "",
-    "teacher": "Fitness/ZumbaScrase, Julia",
+    "name": "Fitness/Zumba",
+    "teacher": "Scrase, Julia",
     "code": "109-101-MQ"
   },
   {
@@ -19846,8 +19846,8 @@
         "room": "F-204"
       }
     ],
-    "name": "",
-    "teacher": "Fitness/ZumbaScrase, Julia",
+    "name": "Fitness/Zumba",
+    "teacher": "Scrase, Julia",
     "code": "109-101-MQ"
   },
   {
@@ -19859,8 +19859,8 @@
         "room": "I-107"
       }
     ],
-    "name": "",
-    "teacher": "FitnessVachon-Gee, Alexandre",
+    "name": "Fitness",
+    "teacher": "Vachon-Gee, Alexandre",
     "code": "109-101-MQ"
   },
   {
@@ -19872,8 +19872,8 @@
         "room": "I-107"
       }
     ],
-    "name": "",
-    "teacher": "FitnessVachon-Gee, Alexandre",
+    "name": "Fitness",
+    "teacher": "Vachon-Gee, Alexandre",
     "code": "109-101-MQ"
   },
   {
@@ -19885,8 +19885,8 @@
         "room": "I-107"
       }
     ],
-    "name": "",
-    "teacher": "FitnessTBAPHE3, Marianopolis",
+    "name": "Fitness",
+    "teacher": "TBAPHE3, Marianopolis",
     "code": "109-101-MQ"
   },
   {
@@ -19898,8 +19898,8 @@
         "room": "I-107"
       }
     ],
-    "name": "",
-    "teacher": "FitnessTBAPHE3, Marianopolis",
+    "name": "Fitness",
+    "teacher": "TBAPHE3, Marianopolis",
     "code": "109-101-MQ"
   },
   {
@@ -19911,8 +19911,8 @@
         "room": "I-107"
       }
     ],
-    "name": "",
-    "teacher": "FitnessJeannet, Anne",
+    "name": "Fitness",
+    "teacher": "Jeannet, Anne",
     "code": "109-101-MQ"
   },
   {
@@ -19924,8 +19924,8 @@
         "room": "I-107"
       }
     ],
-    "name": "",
-    "teacher": "FitnessJeannet, Anne",
+    "name": "Fitness",
+    "teacher": "Jeannet, Anne",
     "code": "109-101-MQ"
   },
   {
@@ -19937,8 +19937,8 @@
         "room": "F-204"
       }
     ],
-    "name": "",
-    "teacher": "FitnessJeannet, Anne",
+    "name": "Fitness",
+    "teacher": "Jeannet, Anne",
     "code": "109-101-MQ"
   },
   {
@@ -19950,8 +19950,8 @@
         "room": "I-107"
       }
     ],
-    "name": "",
-    "teacher": "FitnessPerron, Josee",
+    "name": "Fitness",
+    "teacher": "Perron, Josee",
     "code": "109-101-MQ"
   },
   {
@@ -19963,8 +19963,8 @@
         "room": "I-107"
       }
     ],
-    "name": "",
-    "teacher": "FitnessDafniotis, Zoe",
+    "name": "Fitness",
+    "teacher": "Dafniotis, Zoe",
     "code": "109-101-MQ"
   },
   {
@@ -19976,8 +19976,8 @@
         "room": "F-204"
       }
     ],
-    "name": "",
-    "teacher": "FitnessDafniotis, Zoe",
+    "name": "Fitness",
+    "teacher": "Dafniotis, Zoe",
     "code": "109-101-MQ"
   },
   {
@@ -19989,8 +19989,8 @@
         "room": "I-107"
       }
     ],
-    "name": "",
-    "teacher": "FitnessDafniotis, Zoe",
+    "name": "Fitness",
+    "teacher": "Dafniotis, Zoe",
     "code": "109-101-MQ"
   },
   {
@@ -20002,8 +20002,8 @@
         "room": "I-107"
       }
     ],
-    "name": "",
-    "teacher": "FitnessEpstein, Neall",
+    "name": "Fitness",
+    "teacher": "Epstein, Neall",
     "code": "109-101-MQ"
   },
   {
@@ -20015,8 +20015,8 @@
         "room": "GYM"
       }
     ],
-    "name": "",
-    "teacher": "Fitness GamesEpstein, Neall",
+    "name": "Fitness Games",
+    "teacher": "Epstein, Neall",
     "code": "109-101-MQ"
   },
   {
@@ -20028,8 +20028,8 @@
         "room": "I-107"
       }
     ],
-    "name": "",
-    "teacher": "FitnessEpstein, Neall",
+    "name": "Fitness",
+    "teacher": "Epstein, Neall",
     "code": "109-101-MQ"
   },
   {
@@ -20041,8 +20041,8 @@
         "room": "F-204"
       }
     ],
-    "name": "",
-    "teacher": "FitnessTBAPHE3, Marianopolis",
+    "name": "Fitness",
+    "teacher": "TBAPHE3, Marianopolis",
     "code": "109-101-MQ"
   },
   {
@@ -20054,8 +20054,8 @@
         "room": "F-105"
       }
     ],
-    "name": "",
-    "teacher": "Cross Country SkiingGiacomin, Monica",
+    "name": "Cross Country Skiing",
+    "teacher": "Giacomin, Monica",
     "code": "109-102-MQ"
   },
   {
@@ -20067,8 +20067,8 @@
         "room": "F-105"
       }
     ],
-    "name": "",
-    "teacher": "Cross Country SkiingPerron, Josee",
+    "name": "Cross Country Skiing",
+    "teacher": "Perron, Josee",
     "code": "109-102-MQ"
   },
   {
@@ -20080,8 +20080,8 @@
         "room": "F-105"
       }
     ],
-    "name": "",
-    "teacher": "Intro Outdoor Ed.Giacomin, Monica",
+    "name": "Intro Outdoor Ed.",
+    "teacher": "Giacomin, Monica",
     "code": "109-102-MQ"
   },
   {
@@ -20093,8 +20093,8 @@
         "room": "F-105"
       }
     ],
-    "name": "",
-    "teacher": "Intro Outdoor Ed.TBAPHE3, Marianopolis",
+    "name": "Intro Outdoor Ed.",
+    "teacher": "TBAPHE3, Marianopolis",
     "code": "109-102-MQ"
   },
   {
@@ -20106,8 +20106,8 @@
         "room": "F-204"
       }
     ],
-    "name": "",
-    "teacher": "YogaMcDonald, Shelly",
+    "name": "Yoga",
+    "teacher": "McDonald, Shelly",
     "code": "109-102-MQ"
   },
   {
@@ -20119,8 +20119,8 @@
         "room": "F-204"
       }
     ],
-    "name": "",
-    "teacher": "YogaMcDonald, Shelly",
+    "name": "Yoga",
+    "teacher": "McDonald, Shelly",
     "code": "109-102-MQ"
   },
   {
@@ -20132,8 +20132,8 @@
         "room": "F-204"
       }
     ],
-    "name": "",
-    "teacher": "DanceDafniotis, Zoe",
+    "name": "Dance",
+    "teacher": "Dafniotis, Zoe",
     "code": "109-102-MQ"
   },
   {
@@ -20145,8 +20145,8 @@
         "room": "F-204"
       }
     ],
-    "name": "",
-    "teacher": "DanceDafniotis, Zoe",
+    "name": "Dance",
+    "teacher": "Dafniotis, Zoe",
     "code": "109-102-MQ"
   },
   {
@@ -20158,8 +20158,8 @@
         "room": "GYM"
       }
     ],
-    "name": "",
-    "teacher": "BadmintonVachon-Gee, Alexandre",
+    "name": "Badminton",
+    "teacher": "Vachon-Gee, Alexandre",
     "code": "109-102-MQ"
   },
   {
@@ -20171,8 +20171,8 @@
         "room": "GYM"
       }
     ],
-    "name": "",
-    "teacher": "BadmintonVachon-Gee, Alexandre",
+    "name": "Badminton",
+    "teacher": "Vachon-Gee, Alexandre",
     "code": "109-102-MQ"
   },
   {
@@ -20184,8 +20184,8 @@
         "room": "GYM"
       }
     ],
-    "name": "",
-    "teacher": "BadmintonVachon-Gee, Alexandre",
+    "name": "Badminton",
+    "teacher": "Vachon-Gee, Alexandre",
     "code": "109-102-MQ"
   },
   {
@@ -20197,8 +20197,8 @@
         "room": "GYM"
       }
     ],
-    "name": "",
-    "teacher": "BadmintonVachon-Gee, Alexandre",
+    "name": "Badminton",
+    "teacher": "Vachon-Gee, Alexandre",
     "code": "109-102-MQ"
   },
   {
@@ -20210,8 +20210,8 @@
         "room": "GYM"
       }
     ],
-    "name": "",
-    "teacher": "BadmintonPerron, Josee",
+    "name": "Badminton",
+    "teacher": "Perron, Josee",
     "code": "109-102-MQ"
   },
   {
@@ -20223,8 +20223,8 @@
         "room": "GYM"
       }
     ],
-    "name": "",
-    "teacher": "SoccerScrase, Julia",
+    "name": "Soccer",
+    "teacher": "Scrase, Julia",
     "code": "109-102-MQ"
   },
   {
@@ -20236,8 +20236,8 @@
         "room": "GYM"
       }
     ],
-    "name": "",
-    "teacher": "SoccerScrase, Julia",
+    "name": "Soccer",
+    "teacher": "Scrase, Julia",
     "code": "109-102-MQ"
   },
   {
@@ -20249,8 +20249,8 @@
         "room": "GYM"
       }
     ],
-    "name": "",
-    "teacher": "SoccerScrase, Julia",
+    "name": "Soccer",
+    "teacher": "Scrase, Julia",
     "code": "109-102-MQ"
   },
   {
@@ -20262,8 +20262,8 @@
         "room": "GYM"
       }
     ],
-    "name": "",
-    "teacher": "BasketballTBAPHE3, Marianopolis",
+    "name": "Basketball",
+    "teacher": "TBAPHE3, Marianopolis",
     "code": "109-102-MQ"
   },
   {
@@ -20275,8 +20275,8 @@
         "room": "GYM"
       }
     ],
-    "name": "",
-    "teacher": "BasketballTBAPHE3, Marianopolis",
+    "name": "Basketball",
+    "teacher": "TBAPHE3, Marianopolis",
     "code": "109-102-MQ"
   },
   {
@@ -20288,8 +20288,8 @@
         "room": "GYM"
       }
     ],
-    "name": "",
-    "teacher": "VolleyballEpstein, Neall",
+    "name": "Volleyball",
+    "teacher": "Epstein, Neall",
     "code": "109-102-MQ"
   },
   {
@@ -20301,8 +20301,8 @@
         "room": "GYM"
       }
     ],
-    "name": "",
-    "teacher": "Floor HockeyEpstein, Neall",
+    "name": "Floor Hockey",
+    "teacher": "Epstein, Neall",
     "code": "109-102-MQ"
   },
   {
@@ -20314,8 +20314,8 @@
         "room": "GYM"
       }
     ],
-    "name": "",
-    "teacher": "Ultimate FrisbeeEpstein, Neall",
+    "name": "Ultimate Frisbee",
+    "teacher": "Epstein, Neall",
     "code": "109-102-MQ"
   },
   {
@@ -20327,8 +20327,8 @@
         "room": "GYM"
       }
     ],
-    "name": "",
-    "teacher": "Ultimate FrisbeeEpstein, Neall",
+    "name": "Ultimate Frisbee",
+    "teacher": "Epstein, Neall",
     "code": "109-102-MQ"
   },
   {
@@ -20340,8 +20340,8 @@
         "room": "F-105"
       }
     ],
-    "name": "",
-    "teacher": "PilatesReichert, Alison",
+    "name": "Pilates",
+    "teacher": "Reichert, Alison",
     "code": "109-102-MQ"
   },
   {
@@ -20353,8 +20353,8 @@
         "room": "F-105"
       }
     ],
-    "name": "",
-    "teacher": "PilatesReichert, Alison",
+    "name": "Pilates",
+    "teacher": "Reichert, Alison",
     "code": "109-102-MQ"
   },
   {
@@ -20366,8 +20366,8 @@
         "room": "F-105"
       }
     ],
-    "name": "",
-    "teacher": "Martial ArtsTBAPHE4, Marianopolis",
+    "name": "Martial Arts",
+    "teacher": "TBAPHE4, Marianopolis",
     "code": "109-102-MQ"
   },
   {
@@ -20379,8 +20379,8 @@
         "room": "F-105"
       }
     ],
-    "name": "",
-    "teacher": "Martial ArtsTBAPHE4, Marianopolis",
+    "name": "Martial Arts",
+    "teacher": "TBAPHE4, Marianopolis",
     "code": "109-102-MQ"
   },
   {
@@ -20392,8 +20392,8 @@
         "room": "F-204"
       }
     ],
-    "name": "",
-    "teacher": "YogaTBAPHE4, Marianopolis",
+    "name": "Yoga",
+    "teacher": "TBAPHE4, Marianopolis",
     "code": "109-103-MQ"
   },
   {
@@ -20405,8 +20405,8 @@
         "room": "F-204"
       }
     ],
-    "name": "",
-    "teacher": "Sports ConditioningMcDonald, Shelly",
+    "name": "Sports Conditioning",
+    "teacher": "McDonald, Shelly",
     "code": "109-103-MQ"
   },
   {
@@ -20418,8 +20418,8 @@
         "room": "I-107"
       }
     ],
-    "name": "",
-    "teacher": "Weight TrainingMcDonald, Shelly",
+    "name": "Weight Training",
+    "teacher": "McDonald, Shelly",
     "code": "109-103-MQ"
   },
   {
@@ -20431,8 +20431,8 @@
         "room": "I-107"
       }
     ],
-    "name": "",
-    "teacher": "Weight TrainingMcDonald, Shelly",
+    "name": "Weight Training",
+    "teacher": "McDonald, Shelly",
     "code": "109-103-MQ"
   },
   {
@@ -20444,8 +20444,8 @@
         "room": "I-107"
       }
     ],
-    "name": "",
-    "teacher": "Weight TrainingVachon-Gee, Alexandre",
+    "name": "Weight Training",
+    "teacher": "Vachon-Gee, Alexandre",
     "code": "109-103-MQ"
   },
   {
@@ -20457,8 +20457,8 @@
         "room": "I-107"
       }
     ],
-    "name": "",
-    "teacher": "Weight TrainingVachon-Gee, Alexandre",
+    "name": "Weight Training",
+    "teacher": "Vachon-Gee, Alexandre",
     "code": "109-103-MQ"
   },
   {
@@ -20470,8 +20470,8 @@
         "room": "F-204"
       }
     ],
-    "name": "",
-    "teacher": "Cardio DanceDafniotis, Zoe",
+    "name": "Cardio Dance",
+    "teacher": "Dafniotis, Zoe",
     "code": "109-103-MQ"
   },
   {
@@ -20483,8 +20483,8 @@
         "room": "F-204"
       }
     ],
-    "name": "",
-    "teacher": "Nature HikesJeannet, Anne",
+    "name": "Nature Hikes",
+    "teacher": "Jeannet, Anne",
     "code": "109-103-MQ"
   },
   {
@@ -20496,8 +20496,8 @@
         "room": "F-204"
       }
     ],
-    "name": "",
-    "teacher": "Stress ManagementJeannet, Anne",
+    "name": "Stress Management",
+    "teacher": "Jeannet, Anne",
     "code": "109-103-MQ"
   },
   {
@@ -20509,8 +20509,8 @@
         "room": "F-204"
       }
     ],
-    "name": "",
-    "teacher": "Stress ManagementJeannet, Anne",
+    "name": "Stress Management",
+    "teacher": "Jeannet, Anne",
     "code": "109-103-MQ"
   },
   {
@@ -20522,8 +20522,8 @@
         "room": "F-204"
       }
     ],
-    "name": "",
-    "teacher": "Stress ManagementJeannet, Anne",
+    "name": "Stress Management",
+    "teacher": "Jeannet, Anne",
     "code": "109-103-MQ"
   },
   {
@@ -20535,8 +20535,8 @@
         "room": "F-204"
       }
     ],
-    "name": "",
-    "teacher": "Stress ManagementJeannet, Anne",
+    "name": "Stress Management",
+    "teacher": "Jeannet, Anne",
     "code": "109-103-MQ"
   },
   {
@@ -20548,8 +20548,8 @@
         "room": "GYM"
       }
     ],
-    "name": "",
-    "teacher": "BadmintonPerron, Josee",
+    "name": "Badminton",
+    "teacher": "Perron, Josee",
     "code": "109-103-MQ"
   },
   {
@@ -20561,8 +20561,8 @@
         "room": "GYM"
       }
     ],
-    "name": "",
-    "teacher": "BadmintonPerron, Josee",
+    "name": "Badminton",
+    "teacher": "Perron, Josee",
     "code": "109-103-MQ"
   },
   {
@@ -20574,8 +20574,8 @@
         "room": "GYM"
       }
     ],
-    "name": "",
-    "teacher": "Team SportsTBAPHE3, Marianopolis",
+    "name": "Team Sports",
+    "teacher": "TBAPHE3, Marianopolis",
     "code": "109-103-MQ"
   },
   {
@@ -20587,8 +20587,8 @@
         "room": "GYM"
       }
     ],
-    "name": "",
-    "teacher": "Team SportsTBAPHE3, Marianopolis",
+    "name": "Team Sports",
+    "teacher": "TBAPHE3, Marianopolis",
     "code": "109-103-MQ"
   },
   {
@@ -20600,8 +20600,8 @@
         "room": "GYM"
       }
     ],
-    "name": "",
-    "teacher": "SoccerScrase, Julia",
+    "name": "Soccer",
+    "teacher": "Scrase, Julia",
     "code": "109-103-MQ"
   },
   {
@@ -20613,8 +20613,8 @@
         "room": "GYM"
       }
     ],
-    "name": "",
-    "teacher": "BasketballEpstein, Neall",
+    "name": "Basketball",
+    "teacher": "Epstein, Neall",
     "code": "109-103-MQ"
   },
   {
@@ -21288,8 +21288,8 @@
         "room": "D-407"
       }
     ],
-    "name": "",
-    "teacher": "FORENSIC PSYCHOLOGY - Topics in Psychology IIBurton, Kimberly",
+    "name": "FORENSIC PSYCHOLOGY - Topics in Psychology II",
+    "teacher": "Burton, Kimberly",
     "code": "SSS-LAQ"
   },
   {
@@ -21301,8 +21301,8 @@
         "room": "A-311"
       }
     ],
-    "name": "FUNDAMENTALS OF LAW - ",
-    "teacher": "Selected Topics in the Social SciencesKruger, Stuart",
+    "name": "FUNDAMENTALS OF LAW - Selected Topics in the Social Sciences",
+    "teacher": "Kruger, Stuart",
     "code": "SSS-LAQ"
   },
   {
@@ -21469,8 +21469,8 @@
         "room": "I-214"
       }
     ],
-    "name": "",
-    "teacher": "HUMANS: From Stone Tools to Smart PhonesCampbell, Jennifer",
+    "name": "HUMANS: From Stone Tools to Smart Phones",
+    "teacher": "Campbell, Jennifer",
     "code": "SSS-LAQ"
   },
   {
@@ -21629,8 +21629,8 @@
         "room": "D-220"
       }
     ],
-    "name": "",
-    "teacher": "The Great War & Shaping the Modern World 20th C HISTORYO'Keefe, David",
+    "name": "The Great War & Shaping the Modern World 20th C HISTORY",
+    "teacher": "O'Keefe, David",
     "code": "SSS-LBQ"
   },
   {
@@ -21642,8 +21642,8 @@
         "room": "D-407"
       }
     ],
-    "name": "",
-    "teacher": "The Great War & Shaping the Modern World 20th C HISTORYO'Keefe, David",
+    "name": "The Great War & Shaping the Modern World 20th C HISTORY",
+    "teacher": "O'Keefe, David",
     "code": "SSS-LBQ"
   },
   {

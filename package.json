@@ -1,0 +1,38 @@
+{
+  "name": "converter-marianopolis",
+  "version": "1.0.0",
+  "description": "A node program that converts marianopolis' course offering to json format",
+  "main": "convert.js",
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "dependencies": {
+    "pdf2json": "^0.7.1",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-core": "^6.5.2",
+    "babel-preset-es2015": "^6.5.0"
+  },
+  "scripts": {
+    "test": "babel-node ./test/converted_spec.js",
+    "start": "babel-node convert.js ./test/test_files/all_programs.pdf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lorix-lpan/converter-marianopolis.git"
+  },
+  "keywords": [
+    "converter",
+    "marianopolis"
+  ],
+  "author": "Lawrence Pan <lawrencefeipan@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/lorix-lpan/converter-marianopolis/issues"
+  },
+  "homepage": "https://github.com/lorix-lpan/converter-marianopolis#readme"
+}
