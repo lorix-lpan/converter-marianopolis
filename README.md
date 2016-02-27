@@ -4,10 +4,17 @@ Convert Marianopolis Course Offering document from PDF to JSON
 
 ### Usage
 
-* $ git clone https://github.com/lorix-lpan/converter-marianopolis
-* $ cd converter-marianopolis
-* $ npm install
-* $ node convert.js path/to/your/file
+```bash
+git clone https://github.com/lorix-lpan/converter-marianopolis
+cd converter-marianopolis
+npm install
+# convert pdf from ./test/test_files/all_programs.pdf
+# to ./data/all_programs.json
+npm start
+# Test the converted json file
+npm test
+```
+
 
 ### Example Data Format
 ```javascript
