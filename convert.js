@@ -54,6 +54,18 @@ function formatNames (names) {
   return newNames;
 }
 
+// in order to be stored in a db
+function toObject (arr) {
+
+  let newArr = [];
+
+  arr.forEach( (file) => {
+    newArr.push({ val: file });
+  });
+
+  return newArr;
+}
+
 
 function _onPFBinDataReady (evtData) {
 
@@ -121,6 +133,8 @@ function _onPFBinDataReady (evtData) {
       }).
       // Convert array to a list of js objects
       forEach( (file) => {
+
+        // section number is always first
         if (file.match(/^[0-9]{5}$/)) {
 
           count ++;
@@ -131,8 +145,12 @@ function _onPFBinDataReady (evtData) {
           data[count].name = '';
           data[count].teacher = '';
 
+          courses.push('');
+
+          // match code
         } else if (file.match(/^.{3}-.{3}/)) {
 
+          // if it is a section number
           if (file.match(/[0-9]{5}/)) {
             count ++;
             course = -1;
@@ -143,24 +161,29 @@ function _onPFBinDataReady (evtData) {
             data[count].name = '';
             data[count].teacher = '';
 
+            courses.push('');
             codes.push(file.match(/^.{3}-.{3}/)[0]);
+            // if it is a code
           } else {
             data[count].code = file;
 
             codes.push(file);
           }
 
+          // match day
         } else if (file.match(/^(M|T|W|H|F|S){1,3}$/)) {
 
           course ++;
           data[count].meeting.push({});
           data[count].meeting[course].day = file;
 
+          // match time, eg. => 13:00-15:00
         } else if (file.match(/^[0-9]{2}\:[0-9]{2}-/)) {
 
           data[count].meeting[course].time = file.split('-');
 
-        } else if (file.match(/^([A-Z]-\d{3}|\d{3}|AUD|GYM)$/)) {
+          // match location, eg. => D-201 || GYM || D-201A
+        } else if (file.match(/^([A-Z]-\d{3}[A-Z]?|\d{3}|AUD|GYM)$/)) {
 
           data[count].meeting[course].room = file;
 
@@ -189,7 +212,7 @@ function _onPFBinDataReady (evtData) {
         } else {
 
           data[count].name += file;
-          courses.push(file);
+          courses[count] += file;
 
         }
       });
@@ -201,6 +224,10 @@ function _onPFBinDataReady (evtData) {
   removeDuplicatedArray(teachers);
   removeDuplicatedArray(codes);
   removeDuplicatedArray(courses);
+
+  teachers = toObject(teachers);
+  codes = toObject(codes);
+  courses = toObject(courses);
 
   fs.writeFile(detailNames, JSON.stringify(data, null, 2), 'utf8');
   fs.writeFile(teacherNames, JSON.stringify(teachers, null, 2), 'utf8');
