@@ -25,7 +25,35 @@ function removeDuplicated (courses) {
   }
 }
 
+function removeDuplicatedArray (arr) {
 
+  for (let i = arr.length-1; i > 0; i--) {
+
+    for (let j = i-1; j >= 0; j--) {
+
+      if (arr[i] === arr[j]) {
+
+        arr.splice(j, 1);
+
+      }
+    }
+  }
+}
+
+function formatNames (names) {
+
+  let newNames = [];
+
+  names.forEach( (file) => {
+    if (file.match(/;/)) {
+      newNames.concat(file.split('; '));
+    } else if (file.match(/TBA/i)) {
+    } else {
+      newNames.push(file);
+    }
+  });
+  return newNames;
+}
 
 
 function _onPFBinDataReady (evtData) {
@@ -35,6 +63,9 @@ function _onPFBinDataReady (evtData) {
   };
 
   let data = [];
+  let codes = [];
+  let teachers = [];
+  let courses = [];
   const regexes = [
     /^SECTION/,
     /^COURSE/,
@@ -92,6 +123,7 @@ function _onPFBinDataReady (evtData) {
       // Convert array to a list of js objects
       forEach( (file) => {
         if (file.match(/^[0-9]{5}$/)) {
+
           count ++;
           course = -1;
           data.push({});
@@ -99,7 +131,9 @@ function _onPFBinDataReady (evtData) {
           data[count].meeting = [];
           data[count].name = '';
           data[count].teacher = '';
+
         } else if (file.match(/^.{3}-.{3}/)) {
+
           if (file.match(/[0-9]{5}/)) {
             count ++;
             course = -1;
@@ -109,40 +143,72 @@ function _onPFBinDataReady (evtData) {
             data[count].meeting = [];
             data[count].name = '';
             data[count].teacher = '';
+
+            codes.push(file.match(/^.{3}-.{3}/)[0]);
           } else {
             data[count].code = file;
+
+            codes.push(file);
           }
+
         } else if (file.match(/^(M|T|W|H|F|S){1,3}$/)) {
+
           course ++;
           data[count].meeting.push({});
           data[count].meeting[course].day = file;
+
         } else if (file.match(/^[0-9]{2}\:[0-9]{2}-/)) {
+
           data[count].meeting[course].time = file.split('-');
+
         } else if (file.match(/^([A-Z]-\d{3}|\d{3}|AUD|GYM)$/)) {
+
           data[count].meeting[course].room = file;
+
         } else if (file.match(/^[^,;]+,\ [^,;]+/) || overflow) {
+
           if (file.match(/;/)) {
             data[count].teacher += file.toString();
+            teachers.push(file.toString());
             if (file.toString()[file.toString().length-1] === ' ') {
               overflow = true;
             }
           } else if (file.match(/TRUTH/)) {
             data[count].name += file;
+            courses.push(file);
           } else {
             if (overflow) {
               overflow = false;
+              teachers[teachers.length-1] += file.toString();
+              data[count].teacher += file.toString();
+            } else {
+              data[count].teacher += file.toString();
+              teachers.push(file.toString());
             }
-            data[count].teacher += file.toString();
           }
+
         } else {
+
           data[count].name += file;
+          courses.push(file);
+
         }
       });
   });
 
   pdfData = data;
+
+  teachers = formatNames(teachers);
+
   removeDuplicated(pdfData);
-  fs.writeFile(jsonName, JSON.stringify(pdfData, null, 2), 'utf8');
+  removeDuplicatedArray(teachers);
+  removeDuplicatedArray(codes);
+  removeDuplicatedArray(courses);
+
+  fs.writeFile(detailNames, JSON.stringify(pdfData, null, 2), 'utf8');
+  fs.writeFile(teacherNames, JSON.stringify(teachers, null, 2), 'utf8');
+  fs.writeFile(codeNames, JSON.stringify(codes, null, 2), 'utf8');
+  fs.writeFile(courseNames, JSON.stringify(courses, null, 2), 'utf8');
 };
 
 function _onPFBinDataError (evtError) {
@@ -158,7 +224,10 @@ pdfParser.on('pdfParser_dataError', _.bind(_onPFBinDataError, this));
 const pdfFilePath = process.argv[2];
 const fileName = pdfFilePath.match(/[a-zA-Z\-\_]+\.(pdf|PDF)/)[0];
 
-const jsonName = path.join(__dirname, 'data', fileName.match(/^[a-zA-Z\_]+/)[0] + '.json');
+const detailNames = path.join(__dirname, 'data', 'details.json');
+const teacherNames = path.join(__dirname, 'data', 'teachers.json');
+const courseNames = path.join(__dirname, 'data', 'courses.json');
+const codeNames = path.join(__dirname, 'data', 'codes.json');
 
 pdfParser.loadPDF(pdfFilePath);
 

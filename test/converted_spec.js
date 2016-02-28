@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-const content = JSON.parse(fs.readFileSync('./data/all_programs.json'));
+const content = JSON.parse(fs.readFileSync('./data/details.json'));
 let passed = true;
 
 content.forEach( (file) => {
