@@ -6,6 +6,28 @@ import PDFParser from './node_modules/pdf2json/pdfparser';
 const pdfParser = new PDFParser();
 let pdfData = [];
 
+function removeDuplicated (courses) {
+
+  for (let i = courses.length-1; i > 0; i--) {
+
+    for (let j = i-1; j >= 0; j--) {
+
+      if (courses[i].name === courses[j].name) {
+
+        if (courses[i].code === courses[j].code) {
+
+          if (courses[i].section === courses[j].section) {
+            courses.splice(j, 1);
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
 function _onPFBinDataReady (evtData) {
 
   function chomp (raw_text) {
@@ -119,6 +141,7 @@ function _onPFBinDataReady (evtData) {
   });
 
   pdfData = data;
+  removeDuplicated(pdfData);
   fs.writeFile(jsonName, JSON.stringify(pdfData, null, 2), 'utf8');
 };
 
