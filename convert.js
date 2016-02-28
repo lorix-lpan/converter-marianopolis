@@ -95,7 +95,7 @@ function _onPFBinDataReady (evtData) {
           data[count].meeting.push({});
           data[count].meeting[course].day = file;
         } else if (file.match(/^[0-9]{2}\:[0-9]{2}-/) !== null) {
-          data[count].meeting[course].time = file;
+          data[count].meeting[course].time = file.split('-');
         } else if (file.match(/^([A-Z]-\d{3}|\d{3}|AUD|GYM)$/) !== null) {
           data[count].meeting[course].room = file;
         // } else if (file.match(/^((?![a-z]).)*$/) !== null) {
