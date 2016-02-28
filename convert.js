@@ -56,7 +56,7 @@ function _onPFBinDataReady (evtData) {
       map( (file) => {
         var isValid = true;
         regexes.forEach(function (regex) {
-          if (file.R[0].T.match(regex) !== null)
+          if (file.R[0].T.match(regex))
             isValid = false;
         });
         if (isValid) {
@@ -69,7 +69,7 @@ function _onPFBinDataReady (evtData) {
       }).
       // Convert array to a list of js objects
       forEach( (file) => {
-        if (file.match(/^[0-9]{5}$/) !== null) {
+        if (file.match(/^[0-9]{5}$/)) {
           count ++;
           course = -1;
           data.push({});
@@ -77,8 +77,8 @@ function _onPFBinDataReady (evtData) {
           data[count].meeting = [];
           data[count].name = '';
           data[count].teacher = '';
-        } else if (file.match(/^.{3}-.{3}/) !== null) {
-          if (file.match(/[0-9]{5}/) !== null) {
+        } else if (file.match(/^.{3}-.{3}/)) {
+          if (file.match(/[0-9]{5}/)) {
             count ++;
             course = -1;
             data.push({});
@@ -90,15 +90,14 @@ function _onPFBinDataReady (evtData) {
           } else {
             data[count].code = file;
           }
-        } else if (file.match(/^(M|T|W|H|F|S){1,3}$/) !== null) {
+        } else if (file.match(/^(M|T|W|H|F|S){1,3}$/)) {
           course ++;
           data[count].meeting.push({});
           data[count].meeting[course].day = file;
-        } else if (file.match(/^[0-9]{2}\:[0-9]{2}-/) !== null) {
+        } else if (file.match(/^[0-9]{2}\:[0-9]{2}-/)) {
           data[count].meeting[course].time = file.split('-');
-        } else if (file.match(/^([A-Z]-\d{3}|\d{3}|AUD|GYM)$/) !== null) {
+        } else if (file.match(/^([A-Z]-\d{3}|\d{3}|AUD|GYM)$/)) {
           data[count].meeting[course].room = file;
-        // } else if (file.match(/^((?![a-z]).)*$/) !== null) {
         } else if (file.match(/^[^,;]+,\ [^,;]+/) || overflow) {
           if (file.match(/;/)) {
             data[count].teacher += file.toString();
