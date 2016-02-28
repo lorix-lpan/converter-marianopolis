@@ -4,7 +4,6 @@ import _ from 'underscore';
 import PDFParser from './node_modules/pdf2json/pdfparser';
 
 const pdfParser = new PDFParser();
-let pdfData = [];
 
 function removeDuplicated (courses) {
 
@@ -196,16 +195,14 @@ function _onPFBinDataReady (evtData) {
       });
   });
 
-  pdfData = data;
-
   teachers = formatNames(teachers);
 
-  removeDuplicated(pdfData);
+  removeDuplicated(data);
   removeDuplicatedArray(teachers);
   removeDuplicatedArray(codes);
   removeDuplicatedArray(courses);
 
-  fs.writeFile(detailNames, JSON.stringify(pdfData, null, 2), 'utf8');
+  fs.writeFile(detailNames, JSON.stringify(data, null, 2), 'utf8');
   fs.writeFile(teacherNames, JSON.stringify(teachers, null, 2), 'utf8');
   fs.writeFile(codeNames, JSON.stringify(codes, null, 2), 'utf8');
   fs.writeFile(courseNames, JSON.stringify(courses, null, 2), 'utf8');
@@ -229,9 +226,6 @@ const teacherNames = path.join(__dirname, 'data', 'teachers.json');
 const courseNames = path.join(__dirname, 'data', 'courses.json');
 const codeNames = path.join(__dirname, 'data', 'codes.json');
 
-pdfParser.loadPDF(pdfFilePath);
-
-// or call directly with buffer
 fs.readFile(pdfFilePath, function (err, pdfBuffer) {
   if (!err)
     pdfParser.parseBuffer(pdfBuffer);
