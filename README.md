@@ -38,3 +38,6 @@ npm test
     "code": "101-LCU-05"
   }
 ]
+
+### License
+MIT
