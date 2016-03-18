@@ -1,6 +1,6 @@
 # Course Offering PDF converter
 
-Convert Marianopolis Course Offering document from PDF to JSON
+Convert Marianopolis Course Offering document from PDF to JSON for [Perfect Schedule](https://github.com/lorix-lpan/perfect-schedule)
 
 ### Usage
 
